@@ -92,14 +92,14 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  123 Innovation Drive
+           kollam
                   <br />
-                  Tech City, TC 12345
+               kollam
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-300 text-sm">+91 9496819290</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400 flex-shrink-0" />

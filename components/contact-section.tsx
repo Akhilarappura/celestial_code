@@ -233,8 +233,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
-                  <p className="text-gray-600">+1 (555) 987-6543</p>
+                  <p className="text-gray-600">+91 9496819290</p>
+                  <p className="text-gray-600">+91 9496819290</p>
                 </div>
               </div>
 
@@ -245,11 +245,11 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Office</h4>
                   <p className="text-gray-600">
-                    123 Innovation Drive
+          kollam
+                      <br />
+                      Tech City, TC 12345
                     <br />
-                    Tech City, TC 12345
-                    <br />
-                    United States
+          India
                   </p>
                 </div>
               </div>
