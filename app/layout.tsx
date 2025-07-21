@@ -6,9 +6,9 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Elite Football Academy - Where Champions Are Made",
+  title: "Celestial Code",
   description:
-    "Professional football training academy offering world-class coaching and development programs for aspiring players.",
+    "Accelerate your new Product Strategy with us",
     generator: 'v0.dev'
 }
 
