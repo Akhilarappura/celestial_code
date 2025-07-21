@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 const packages = [
   {
     name: "Basic",
-    price: "$2,500",
+    price: "$",
     period: "/month",
     description: "Perfect for startups and small businesses",
     features: [
@@ -25,7 +25,7 @@ const packages = [
   },
   {
     name: "Pro",
-    price: "$5,000",
+    price: "$",
     period: "/month",
     description: "Ideal for growing companies",
     features: [
