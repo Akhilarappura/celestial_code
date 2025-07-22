@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { Monitor, Users, Cog, Search, Palette, MessageSquare, DollarSign } from "lucide-react"
+import { Monitor, Users, Cog, Search, Palette, MessageSquare } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 const services = [
@@ -9,42 +9,42 @@ const services = [
     icon: Monitor,
     title: "Website/App Development",
     description: "Custom web and mobile applications built with modern technologies and best practices.",
-    pricing: "Starting from $",
+    // pricing: "Starting from ",
     features: ["Responsive Design", "Modern Frameworks", "Performance Optimized", "SEO Ready"],
   },
   {
     icon: Users,
     title: "Team Building",
     description: "We extend or act as your development team, providing skilled professionals on-demand.",
-    pricing: "From $",
+    // pricing: "From ",
     features: ["Skilled Developers", "Flexible Scaling", "Seamless Integration", "Agile Methodology"],
   },
   {
     icon: Cog,
     title: "Custom Software Solutions",
     description: "Tailored software solutions designed specifically for your business needs and processes.",
-    pricing: "Custom Quote",
+    // pricing: "Custom Quote",
     features: ["Bespoke Development", "Scalable Architecture", "Integration Ready", "Ongoing Support"],
   },
   {
     icon: Search,
     title: "Research & Development",
     description: "Innovative R&D services to explore new technologies and create breakthrough solutions.",
-    pricing: "From $",
+    // pricing: "From ",
     features: ["Technology Research", "Proof of Concepts", "Innovation Labs", "Future-Ready Solutions"],
   },
   {
     icon: Palette,
     title: "Product Design Sprint",
     description: "Rapid prototyping and design sprints to validate ideas and create user-centered products.",
-    pricing: "From $",
+    // pricing: "From ",
     features: ["Design Thinking", "Rapid Prototyping", "User Testing", "Iterative Design"],
   },
   {
     icon: MessageSquare,
     title: "Scoping Sessions",
     description: "Comprehensive project scoping and planning sessions to define requirements and roadmaps.",
-    pricing: "From $",
+    // pricing: "From ",
     features: ["Requirement Analysis", "Technical Planning", "Resource Estimation", "Timeline Planning"],
   },
 ]
@@ -122,8 +122,8 @@ export default function ServicesSection() {
 
                     <div className="mb-6">
                       <div className="flex items-center mb-4">
-                        <DollarSign className="w-5 h-5 text-green-600 mr-2" />
-                        <span className="font-semibold text-green-600">{service.pricing}</span>
+                        {/* <DollarSign className="w-5 h-5 text-green-600 mr-2" /> */}
+                        {/* <span className="font-semibold text-green-600">{service.pricing}</span> */}
                       </div>
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
